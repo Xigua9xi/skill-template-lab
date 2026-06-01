@@ -1,0 +1,6 @@
+{
+  "name": "doc-review-skill",
+  "description": "A skill template for document review workflows.",
+  "entry": "SKILL.md",
+  "kind": "document"
+}
