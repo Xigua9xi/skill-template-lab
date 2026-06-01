@@ -1,0 +1,6 @@
+{
+  "name": "minimal-skill",
+  "description": "A minimal single-purpose skill template.",
+  "entry": "SKILL.md",
+  "kind": "workflow"
+}
