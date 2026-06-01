@@ -1,0 +1,6 @@
+{
+  "name": "cli-tool-skill",
+  "description": "A skill template for repeatable CLI workflows.",
+  "entry": "SKILL.md",
+  "kind": "cli"
+}
