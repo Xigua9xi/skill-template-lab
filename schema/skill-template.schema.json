@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skill Template Metadata",
+  "type": "object",
+  "required": ["name", "description", "entry", "kind"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "entry": { "type": "string", "const": "SKILL.md" },
+    "kind": { "type": "string", "enum": ["workflow", "cli", "document"] }
+  },
+  "additionalProperties": false
+}
