@@ -1,0 +1,26 @@
+{
+  "name": "skill-template-lab",
+  "version": "0.1.0",
+  "description": "Reusable skill and agent templates with a local validator.",
+  "type": "module",
+  "bin": {
+    "skill-template-lab": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm.cmd run build && node --test test/*.test.mjs",
+    "lint": "node scripts/lint.mjs",
+    "demo": "npm.cmd run build && node dist/cli.js templates"
+  },
+  "files": [
+    "dist",
+    "templates",
+    "schema",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
